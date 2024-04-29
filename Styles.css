@@ -1,0 +1,143 @@
+/* Reset de styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.arrire{
+    background-color: #0aa5c0; /* Couleur de fond (gris clair) */
+}
+
+header {
+    background-color: #333;
+    color: #e70000;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+.article {
+    margin-bottom: 2rem;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #272626;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.article img {
+    max-width: 200px; /* Taille maximale de l'image */
+    display: block; /* Pour centrer l'image */
+    margin: 0 auto; /* Centrer l'image horizontalement */
+}
+.article h3 {
+    font-size: 24px; /* Taille de police */
+    color: #333; /* Couleur du texte */
+    margin-bottom: 10px; /* Espacement en bas du titre */
+    text-align: center; /* Centrage du texte */
+    text-transform: uppercase; /* Mise en majuscules */
+    font-weight: bold; /* Gras */
+}
+
+/* Styles pour les descriptions des articles */
+.article p {
+    font-size: 18px; /* Taille de police */
+    color: #666; /* Couleur du texte */
+    margin-bottom: 15px; /* Espacement en bas de chaque paragraphe */
+    text-align: justify; /* Justification du texte */
+}
+
+/* Styles pour les paragraphes généraux */
+p {
+    font-size: 16px; /* Taille de police */
+    color: #05001b; /* Couleur du texte */
+    line-height: 1.6; /* Hauteur de ligne */
+    margin-bottom: 15px; /* Espacement en bas de chaque paragraphe */
+    text-align: justify; /* Justification du texte */
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.description p,
+.description a {
+    margin-bottom: 10px;
+}
+
+.bubble {
+    background-color: #f0f0f0; /* Couleur de fond de la bulle */
+    border-radius: 20px; /* Rayon de bordure pour créer la forme de bulle */
+    padding: 20px; /* Espacement interne de la bulle */
+    margin-bottom: 20px; /* Espacement en bas de chaque bulle */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce pour la bulle */
+}
+
+.circle {
+    background-color: #8ca6b6; /* Couleur de fond de la bulle */
+    border-radius: 20px; /* Rayon de bordure pour créer la forme de bulle */
+    padding: 20px; /* Espacement interne de la bulle */
+    margin-bottom: 20px; /* Espacement en bas de chaque bulle */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Ombre douce pour la bulle */
+}
+
+.mes-images {
+    max-width: 25%; /* Taille maximale de l'image */
+    height: auto; /* Hauteur automatique pour préserver les proportions */
+    display: block; /* Pour aligner l'image correctement */
+    margin: 0 auto 30px; /* Espacement en bas de l'image */
+}
+
+p {
+    font-size: 20px; /* Taille de police des paragraphes */
+    line-height: 1.6; /* Hauteur de ligne pour un espacement optimal */
+    margin-bottom: 15px; /* Espacement en bas de chaque paragraphe */
+}
+
+.Contact {
+    max-width: 10%; /* Taille maximale de l'image */
+    height: auto; /* Hauteur automatique pour préserver les proportions */
+    margin: 0 auto 30px; /* Espacement en bas de l'image */
+}
+.video-centree {
+    width: 20%; /* Taille de la vidéo (ajuste selon tes besoins) */
+    display: block;
+    margin: 0 auto; /* Centre la vidéo horizontalement */
+}
+
+.video-centree1 {
+    width: 20%; /* Taille de la vidéo (ajuste selon tes besoins) */
+    display: block;
+    margin: 0 auto; /* Centre la vidéo horizontalement */
+}
